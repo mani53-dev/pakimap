@@ -395,30 +395,3 @@ Path createMap(Size size) {
   return path;
 }
 
-Path createMoonStar(Size size) {
-  var path = Path();
-  path.moveTo(size.width * 0.43, 0);
-  path.cubicTo(size.width * 0.24, size.height * 0.04, -0.1, size.height * 0.24, size.width * 0.03, size.height * 0.69);
-  path.cubicTo(size.width * 0.09, size.height * 0.83, size.width * 0.31, size.height * 1.09, size.width * 0.69, size.height * 0.97);
-  path.cubicTo(size.width * 0.78, size.height * 0.94, size.width * 0.97, size.height * 0.81, size.width, size.height * 0.59);
-  path.cubicTo(size.width * 0.95, size.height * 0.66, size.width * 0.8, size.height * 0.8, size.width * 0.62, size.height * 0.78);
-  path.cubicTo(size.width * 0.56, size.height * 0.78, size.width * 0.41, size.height * 0.75, size.width * 0.29, size.height * 0.59);
-  path.cubicTo(size.width * 0.24, size.height * 0.52, size.width * 0.18, size.height * 0.35, size.width * 0.26, size.height * 0.18);
-  path.cubicTo(size.width * 0.3, size.height * 0.12, size.width * 0.4, 0, size.width * 0.43, 0);
-  path.cubicTo(size.width * 0.43, 0, size.width * 0.43, 0, size.width * 0.43, 0);
-  path.lineTo(size.width * 0.51, size.height * 0.24);
-  path.cubicTo(size.width * 0.51, size.height * 0.23, size.width * 0.54, size.height / 5, size.width * 0.64, size.height / 5);
-  path.cubicTo(size.width * 0.66, size.height * 0.16, size.width * 0.71, size.height * 0.07, size.width * 0.72, size.height * 0.08);
-  path.cubicTo(size.width * 0.73, size.height * 0.09, size.width * 0.76, size.height * 0.11, size.width * 0.79, size.height / 5);
-  path.cubicTo(size.width * 0.85, size.height / 5, size.width * 0.95, size.height / 5, size.width * 0.93, size.height * 0.24);
-  path.cubicTo(size.width * 0.9, size.height * 0.27, size.width * 0.86, size.height * 0.31, size.width * 0.85, size.height / 3);
-  path.cubicTo(size.width * 0.86, size.height * 0.38, size.width * 0.87, size.height * 0.48, size.width * 0.85, size.height * 0.46);
-  path.cubicTo(size.width * 0.84, size.height * 0.47, size.width * 0.82, size.height * 0.47, size.width * 0.72, size.height * 0.42);
-  path.cubicTo(size.width * 0.69, size.height * 0.44, size.width * 0.62, size.height * 0.48, size.width * 0.6, size.height * 0.47);
-  path.cubicTo(size.width * 0.58, size.height * 0.46, size.width * 0.59, size.height * 0.37, size.width * 0.6, size.height / 3);
-  path.cubicTo(size.width * 0.6, size.height / 3, size.width * 0.51, size.height * 0.24, size.width * 0.51, size.height * 0.24);
-  path.cubicTo(size.width * 0.51, size.height * 0.24, size.width * 0.51, size.height * 0.24, size.width * 0.51, size.height * 0.24);
-  
-  return path;
-}
-
