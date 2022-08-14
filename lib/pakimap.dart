@@ -260,14 +260,14 @@ Path createMap(Size size) {
   path.cubicTo(size.width * 0.6, size.height * 0.02, size.width * 0.64, size.height * 0.02, size.width * 0.67, size.height * 0.02);
   path.cubicTo(size.width * 0.69, size.height * 0.02, size.width * 0.7, size.height * 0.02, size.width * 0.71, 0);
   path.cubicTo(size.width * 0.71, 0, size.width * 0.71, 0, size.width * 0.71, 0);
-  // canvas.drawPath(path, myPaint);
+
 
 
   // Path number 2
 
 
 
-  // path = Path();
+
   path.moveTo(size.width * 0.71, 0);
   path.cubicTo(size.width * 0.7, size.height * 0.02, size.width * 0.69, size.height * 0.02, size.width * 0.67, size.height * 0.02);
   path.cubicTo(size.width * 0.64, size.height * 0.02, size.width * 0.6, size.height * 0.02, size.width * 0.57, size.height * 0.05);
@@ -312,14 +312,14 @@ Path createMap(Size size) {
   path.cubicTo(0, size.height * 0.67, 0, size.height * 0.34, 0, 0);
   path.cubicTo(size.width * 0.24, 0, size.width * 0.47, 0, size.width * 0.71, 0);
   path.cubicTo(size.width * 0.71, 0, size.width * 0.71, 0, size.width * 0.71, 0);
-  // canvas.drawPath(path, myPaint);
+
 
 
   // Path number 3
 
 
 
-  // path = Path();
+
   path.moveTo(size.width * 0.37, size.height);
   path.cubicTo(size.width * 0.37, size.height, size.width * 0.37, size.height, size.width * 0.37, size.height);
   path.cubicTo(size.width * 0.38, size.height, size.width * 0.39, size.height, size.width * 0.41, size.height * 0.98);
@@ -367,14 +367,14 @@ Path createMap(Size size) {
   path.cubicTo(size.width, size.height * 0.43, size.width, size.height * 0.72, size.width, size.height);
   path.cubicTo(size.width * 0.8, size.height, size.width * 0.59, size.height, size.width * 0.37, size.height);
   path.cubicTo(size.width * 0.37, size.height, size.width * 0.37, size.height, size.width * 0.37, size.height);
-  // canvas.drawPath(path, myPaint);
+
 
 
   // Path number 4
 
 
 
-  // path = Path();
+
   path.moveTo(size.width, size.height * 0.14);
   path.cubicTo(size.width, size.height * 0.14, size.width, size.height * 0.14, size.width, size.height * 0.14);
   path.cubicTo(size.width, size.height * 0.14, size.width, size.height * 0.13, size.width, size.height * 0.13);
